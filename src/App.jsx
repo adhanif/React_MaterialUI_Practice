@@ -1,10 +1,12 @@
 import "./App.css";
+import CheckboxExampel from "./comnponents/Checkbox";
 import { Button, ButtonGroup } from "@mui/material";
 import { Save, Delete } from "@mui/icons-material";
 
 function App() {
   return (
     <>
+      <CheckboxExampel />
       <ButtonGroup>
         <Button
           size="large"
